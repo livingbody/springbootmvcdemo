@@ -72,3 +72,42 @@ Fast-forward
  README.md | 17 +++++++++++++++++
  1 file changed, 17 insertions(+)
 ```
+#第三次操作命令
+```livingbody@livingbody-PC:~/IdeaProjects$ git add .
+livingbody@livingbody-PC:~/IdeaProjects$ git commit -a
+[master f6d487f] 更改文件夹名称、更新README.MD内容 2018.1.1 by livingbody
+ 18 files changed, 770 insertions(+)
+ create mode 100644 springmvcdemo01/.gitignore
+ create mode 100644 springmvcdemo01/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 springmvcdemo01/.mvn/wrapper/maven-wrapper.properties
+ create mode 100755 springmvcdemo01/mvnw
+ create mode 100644 springmvcdemo01/mvnw.cmd
+ create mode 100644 springmvcdemo01/pom.xml
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/Application.java
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/MyController1.java
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/MyController2.java
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/MyController3.java
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/MyController4.java
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/MyController5.java
+ create mode 100644 springmvcdemo01/src/main/java/cn/goingtodo/springmvcdemo/demo/MyController6.java
+ create mode 100644 springmvcdemo01/src/main/resources/application.properties
+ create mode 100644 springmvcdemo01/src/main/resources/templates/hello.html
+ create mode 100644 springmvcdemo01/src/main/resources/templates/index.html
+ create mode 100644 springmvcdemo01/src/test/java/cn/goingtodo/springmvcdemo/demo/DemoApplicationTests.java
+livingbody@livingbody-PC:~/IdeaProjects$ git checkout master
+已经位于 'master'
+您的分支领先 'origin/master' 共 1 个提交。
+  （使用 "git push" 来发布您的本地提交）
+livingbody@livingbody-PC:~/IdeaProjects$ git push
+Username for 'https://github.com': livingbody
+Password for 'https://livingbody@github.com': 
+对象计数中: 38, 完成.
+Delta compression using up to 4 threads.
+压缩对象中: 100% (27/27), 完成.
+写入对象中: 100% (38/38), 52.03 KiB | 13.01 MiB/s, 完成.
+Total 38 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/livingbody/springbootmvcdemo.git
+   2ab4ee2..f6d487f  master -> master
+livingbody@livingbody-PC:~/IdeaProjects$ 
+```

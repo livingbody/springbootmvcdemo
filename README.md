@@ -72,7 +72,7 @@ Fast-forward
  README.md | 17 +++++++++++++++++
  1 file changed, 17 insertions(+)
 ```
-#第三次操作命令
+# 第三次操作命令
 ```livingbody@livingbody-PC:~/IdeaProjects$ git add .
 livingbody@livingbody-PC:~/IdeaProjects$ git commit -a
 [master f6d487f] 更改文件夹名称、更新README.MD内容 2018.1.1 by livingbody

@@ -33,3 +33,20 @@ Query OK, 0 rows affected (0.00 sec)
 
 mysql> 
 ```
+# 更正
+```
+select user, plugin from mysql.user;
+mysql> select user, plugin from mysql.user;
++-----------+-----------------------+
+| user      | plugin                |
++-----------+-----------------------+
+| root      | auth_socket           |
+| mysql.sys | mysql_native_password |
+| dev       | mysql_native_password |
++-----------+-----------------------+
+3 rows in set (0.01 sec)
+update mysql.user set authentication_string=PASSWORD('123'), plugin='mysql_native_password' where user='root';
+flush privileges;
+```
+这样就可以用root登陆了。
+

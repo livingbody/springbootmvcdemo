@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>页面form测试</title>
+</head>
+<body>
+
+
+<form action="/stuadd" method="post" th:object="${student}">
+    id:<input type="text" name="id"/><br/>
+    name:<input type="text" name="name"/><br/>
+    gender:<input type="text" name="gender"/><br/>
+    <input type="submit"/>
+</body>
+</html>

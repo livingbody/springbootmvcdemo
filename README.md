@@ -111,3 +111,16 @@ To https://github.com/livingbody/springbootmvcdemo.git
    2ab4ee2..f6d487f  master -> master
 livingbody@livingbody-PC:~/IdeaProjects$ 
 ```
+# 第四次上传
+```
+  417  git init
+  418  git add .
+  419  git commit -m "first commit"
+  420  gitstatus
+  421  git status
+  422  gitstatusgit remote add origin https://github.com/livingbody/springbootmvcdemo.git
+  423  git remote add origin https://github.com/livingbody/springbootmvcdemo.git
+  424  git push -u origin master
+  425  git remote add origin https://github.com/livingbody/springbootmvcdemo.git
+  426  git remote -v
+```

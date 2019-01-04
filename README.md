@@ -4,9 +4,9 @@
 ### [debian安装redis.md](./debian安装redis.md)
 ### [mysql初始化.md](mysql初始化.md)
 ### [ lombok 用例]( lombok用例.md)
-###[mybatis3 用例](mybatis3用例.md)
+### [mybatis3 用例](mybatis3用例.md)
 ### [loombok用例](loombok用例.md )
-###[freemarker模板用例](freemarker模板用例.md)
+### [freemarker模板用例](freemarker模板用例.md)
 
 
 # springbootmvcdemo

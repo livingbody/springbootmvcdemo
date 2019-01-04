@@ -27,3 +27,66 @@ springboot  nested exception is java.lang.IllegalArgumentException: Property 'sq
  # 2.解决编译过程中不能注入问题
   ===@MapperScan("cn.goingtodo.demo.mapper")
   在application上面加入这个才可以正常注入，否则mapper不工作
+  
+# 3.工程结构
+```$xslt
+livingbody@livingbody-PC:~/IdeaProjects/springbootmybatis3demo002$ tree 
+.
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── springbootmybatis3demo002.iml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── cn
+│   │   │       └── goingtodo
+│   │   │           └── demo
+│   │   │               ├── controller
+│   │   │               │   └── UserController.java
+│   │   │               ├── DemoApplication.java
+│   │   │               ├── mapper
+│   │   │               │   └── UserMapper.java
+│   │   │               └── pojo
+│   │   │                   └── User.java
+│   │   └── resources
+│   │       ├── application.yml
+│   │       ├── static
+│   │       ├── templates
+│   │       │   └── user.ftl
+│   │       └── test.sql
+│   └── test
+│       └── java
+│           └── cn
+│               └── goingtodo
+│                   └── demo
+│                       └── DemoApplicationTests.java
+└── target
+    ├── classes
+    │   ├── application.yml
+    │   ├── cn
+    │   │   └── goingtodo
+    │   │       └── demo
+    │   │           ├── controller
+    │   │           │   └── UserController.class
+    │   │           ├── DemoApplication.class
+    │   │           ├── mapper
+    │   │           │   └── UserMapper.class
+    │   │           └── pojo
+    │   │               └── User.class
+    │   ├── templates
+    │   │   └── user.ftl
+    │   └── test.sql
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    └── test-classes
+        └── cn
+            └── goingtodo
+                └── demo
+                    └── DemoApplicationTests.class
+
+
+``` 

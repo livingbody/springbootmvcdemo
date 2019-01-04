@@ -1,6 +1,17 @@
+## 目录
+[springboot2 & thymeleaf 工程实践](springmvcdemo01/README.md)
+[springboot2 & mybatis3 & freemarker 实践](springbootmybatis3demo002/README.md)
+[debian安装redis.md](./debian安装redis.md)
+[mysql初始化.md](mysql初始化.md)
+[ lombok 用例]( lombok用例.md)
+[mybatis3 用例](mybatis3用例.md)
+[loombok用例](loombok用例.md )
+[freemarker模板用例](freemarker模板用例.md)
+
+
 # springbootmvcdemo
 
-# init
+## init
 ```
   git init
   git add README.md
@@ -8,15 +19,15 @@
   git remote add origin https://github.com/livingbody/springbootmvcdemo.git
   git push -u origin master
 ```
-# push an existing repository from the command line
-  
+## push an existing repository from the command line
+
  ```
   git remote add origin https://github.com/livingbody/springbootmvcdemo.git
   git push -u origin master
-```
-# 备注
+ ```
+## 备注
 ** “```” 是数字1上面那个符号，而不是单引号
-# 第一次操作命令
+## 第一次操作命令
 ```
 livingbody@livingbody-PC:~/IdeaProjects$ echo "# springbootmvcdemo" >> README.md
 livingbody@livingbody-PC:~/IdeaProjects$ ls
@@ -58,7 +69,7 @@ To https://github.com/livingbody/springbootmvcdemo.git
 分支 'master' 设置为跟踪来自 'origin' 的远程分支 'master'。
 
 ```
-# 第二次操作命令
+## 第二次操作命令
 ```livingbody@livingbody-PC:~/IdeaProjects$ git pull
 remote: Enumerating objects: 11, done.
 remote: Counting objects: 100% (11/11), done.
@@ -72,7 +83,7 @@ Fast-forward
  README.md | 17 +++++++++++++++++
  1 file changed, 17 insertions(+)
 ```
-# 第三次操作命令
+## 第三次操作命令
 ```livingbody@livingbody-PC:~/IdeaProjects$ git add .
 livingbody@livingbody-PC:~/IdeaProjects$ git commit -a
 [master f6d487f] 更改文件夹名称、更新README.MD内容 2018.1.1 by livingbody
@@ -111,7 +122,7 @@ To https://github.com/livingbody/springbootmvcdemo.git
    2ab4ee2..f6d487f  master -> master
 livingbody@livingbody-PC:~/IdeaProjects$ 
 ```
-# 第四次上传
+## 第四次上传
 ```
   417  git init
   418  git add .
@@ -124,3 +135,4 @@ livingbody@livingbody-PC:~/IdeaProjects$
   425  git remote add origin https://github.com/livingbody/springbootmvcdemo.git
   426  git remote -v
 ```
+# 目录结构

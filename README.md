@@ -7,8 +7,7 @@
 ### [mybatis3 用例](mybatis3用例.md)
 ### [loombok用例](loombok用例.md )
 ### [freemarker模板用例](freemarker模板用例.md)
-
-[druid用例](druid用例.md)
+### [druid用例](druid用例.md)
 
 
 # springbootmvcdemo

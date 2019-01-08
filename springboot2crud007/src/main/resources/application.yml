@@ -1,0 +1,7 @@
+#  数据库驱动配置
+  spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
